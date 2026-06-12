@@ -1,2 +1,13 @@
-output.txt
+__pycache__/
+*.pyc
 .venv/
+venv/
+output.txt
+
+# Runtime cache (template pickles, app settings)
+data/cache/
+
+# Exploratory / debug one-offs kept locally
+check_extract.py
+debug_template.py
+explore_ninja.py
